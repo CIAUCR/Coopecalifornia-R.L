@@ -1,2 +1,2 @@
 # coopecaliforniarl
-https://bryaleman.github.io/coopecaliforniarl/
+https://ciaucr.github.io/Coopecalifornia-R.L/
