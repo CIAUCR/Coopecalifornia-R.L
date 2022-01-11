@@ -39,7 +39,7 @@ var overlayMaps = {
 $.getJSON("lotes_coopecaliforniarl.geojson", function(geodata) {
 	var layer_geojson_lotes_coopecaliforniarl = L.geoJson(geodata, {
 		style: function(feature) {
-			return {'color': "black", 'weight': 1, 'fillOpacity': 0.0}
+			return {'color': "red", 'weight': 1, 'fillOpacity': 0.0}
 		},
 		onEachFeature: function(feature, layer) {
 			var popupText = "Asociado: " + feature.properties.ASOCIADO + "<br>" + "Área: " + feature.properties.AREA + " ha";
